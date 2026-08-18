@@ -1,4 +1,14 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "."
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "installCommand": null,
+  "devCommand": null,
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/index.html",
+      "permanent": false
+    }
+  ]
 }
