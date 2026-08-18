@@ -1,0 +1,21 @@
+{
+  "cli": {
+    "version": ">= 5.4.0",
+    "requireCommit": false
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccount": "@keys/google-play-service-account.json",
+        "track": "internal"
+      }
+    }
+  }
+}
