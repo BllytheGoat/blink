@@ -1,0 +1,51 @@
+{
+  "productName": "Blink",
+  "version": "0.1.0",
+  "identifier": "com.blink.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devPath": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist",
+    "withGlobalTauri": false
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Blink",
+        "width": 400,
+        "height": 600,
+        "resizable": false,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["apk"],
+    "externalBin": ["binaries/croc_aarch64-android"],
+    "resources": [],
+    "windows": [
+      {
+        "skipWebpack": true
+      }
+    ],
+    "linux": [
+      {
+        "skipWebpack": true
+      }
+    ],
+    "macOS": [
+      {
+        "skipWebpack": true
+      }
+    ],
+    "android": {
+      "minSdkVersion": 24,
+      "targetSdkVersion": 34
+    }
+  }
+}
