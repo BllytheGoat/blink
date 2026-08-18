@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Secure P2P file transfer",
   "scripts": {
-    "build": "echo 'PWA ready'",
-    "start": "echo 'Open index.html'"
-  }
+    "build": "echo 'PWA is ready'"
+  },
+  "keywords": ["file-transfer", "p2p", "croc"],
+  "author": "BllytheGoat"
 }
