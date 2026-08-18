@@ -1,10 +1,4 @@
 {
   "name": "blink",
-  "version": "1.0.0",
-  "description": "Secure P2P file transfer",
-  "scripts": {
-    "build": "echo 'PWA is ready'"
-  },
-  "keywords": ["file-transfer", "p2p", "croc"],
-  "author": "BllytheGoat"
+  "version": "1.0.0"
 }
